@@ -73,9 +73,7 @@ footer {
 .fundo {
   background-color: #3197d6;
 }
-.left {
-  margin-left: auto;
-}
+
 .zone:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
@@ -108,4 +106,8 @@ a:hover {
 }
 .colorFotter {
   background-color: #5d8aa8;
+}
+.left {
+  display: flex;
+  justify-content: start;
 }
